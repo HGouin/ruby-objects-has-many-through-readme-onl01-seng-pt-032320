@@ -3,7 +3,7 @@ attr_accessor :name, :yrs_experience
 
 @@all = []
 
-def initialize (name, yrs_experience)
+def initialize(name, yrs_experience)
   @name = name
   @yrs_experience = yrs_experience
   @@all << self
@@ -24,5 +24,4 @@ def meals
     end
     best_tipped_meal.customer
   end
-end
 end
