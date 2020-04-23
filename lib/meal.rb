@@ -9,4 +9,8 @@ def initialize(waiter, customer, total, tip=0)
   @tip = tip
   @@all << self
 end
+
+def self.all
+  @@all
+end
 end
